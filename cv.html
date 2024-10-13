@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Sandström CV</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    
+    <div class="main-container cv-page">
+        <header>
+            <nav id="nav_bar" role="navigation" aria-label="Main Navigation">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/S.png" alt="Portfolio logo: stylized 'S' monogram" aria-label="Go to Home page">
+                    </a>
+                </div>
+                <ul class="nav_bar_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experiences.html">Experiences</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+                <div class="language-links">
+                    <a href="#" class="lang-link" data-lang="en">EN</a>
+                    <a href="#" class="lang-link" data-lang="fi">FI</a>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main-content" role="main" class="content-layout">
+            <div class="left-column">
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/sarah-sandstr%C3%B6m-17338ab6/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/linkedin-icon.png" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/yuzi2021" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/github-icon.png" alt="GitHub">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="center-column">
+                <h1 data-i18n="cvTitle">Sarah Sandström CV</h1>
+                
+                <section class="contact-details">
+                    <h2 data-i18n="contactDetails">Contact Details</h2>
+                    <p>Email: <a href="mailto:sarahyuzisandstrom@gmail.com">sarahyuzisandstrom@gmail.com</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/sarah-sandstr%C3%B6m-17338ab6/" target="_blank" rel="noopener noreferrer">Sarah Sandström</a></p>
+                    <p>GitHub: <a href="https://github.com/yuzi2021" target="_blank" rel="noopener noreferrer">yuzi2021</a></p>
+                </section>
+
+            
+                <section class="education-section">
+                    <h2 data-i18n="education">Education</h2>
+                    <ul id="education-list">
+                        <!-- Dynamically populated in cv.js -->
+                    </ul>
+                </section>
+
+                <section class="projects-section">
+                    <h2 data-i18n="projects">Projects</h2>
+                    <ul id="projects-list">
+                        <!-- Dynamically populated in cv.js -->
+                    </ul>
+                </section>
+
+                <section class="experience-section">
+                    <h2 data-i18n="workExperience">Work Experience</h2>
+                    <ul id="experience-list">
+                        <!-- Dynamically populated in cv.js -->
+                    </ul>
+                </section>
+
+                <section class="cv-language-skills">
+                    <h2 data-i18n="languageSkills">Language Skills</h2>
+                    <ul id="cv-language-skills-list">
+                        <!-- Dynamically populated in cv.js -->
+                    </ul>
+                </section>
+
+                <section class="certificates-section">
+                    <h2 data-i18n="certificates">Certificates</h2>
+                    <ul id="certificates-list">
+                        <!-- Dynamically populated in cv.js -->
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <p class="vertical-text">sarahyuzisandstrom@gmail.com</p>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="assets/images/S.png" alt="Portfolio Logo, a calligraphy monogram of the surname initial S">
+                    <p>Sarah Sandström, 2024</p>
+                </div>
+                <div class="footer-right">
+                    <a href="construction.html">Accessibility Statement</a>
+                    <a href="construction.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/sketch.js"></script>
+    <script src="assets/language.js"></script>
+    <script src="assets/education.js"></script>
+    <script src="assets/projects.js"></script>
+    <script src="assets/experiences.js"></script>
+    <script src="assets/cv.js"></script>
+</body>
+</html>
