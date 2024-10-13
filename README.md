@@ -2,6 +2,13 @@
 
 Welcome to my personal portfolio! This repository contains the source code for my professional portfolio website, showcasing my skills, projects, and experiences as a web developer.
 
+## 🌟 Live Site
+
+You can view the live version of my portfolio here: [Sarah Sandström's Portfolio](https://yuzi2021.github.io/myPortfolio_v1)
+
+## 🛠 Technologies Used
+
+
 ## 🌟 Features
 
 - Responsive design for optimal viewing on various devices
