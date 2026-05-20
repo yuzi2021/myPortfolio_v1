@@ -44,13 +44,13 @@ window.educationData = [
             fi: "Kandidaatin tutkinto, Tietojenkäsittelytiede"
         },
         period: {
-            en: "Oct 2022 - Apr 2026",
-            fi: "Loka 2022 - Huhti 2026"
+            en: "Oct 2022 - Sep 2027",
+            fi: "Loka 2022 - Syys 2027"
         },
         description: {
-            en: "I have completed the first year of study. Completed courses: Computational Mathematics, Discrete Mathematics, Algorithms and Data Structures, Introduction to Programming 1 & 2, How Computers Work, Fundamentals of Computer Science, Web Development, Graphics Programming",
-            fi: "Olen suorittanut ensimmäisen vuoden opinnot. Suoritetut kurssit: Laskennallinen matematiikka, Diskreetti matematiikka, Algoritmit ja tietorakenteet, Ohjelmoinnin perusteet 1 & 2, Tietokoneiden toiminta, Tietojenkäsittelytieteen perusteet, Web-kehitys, Graafinen ohjelmointi"
-        }
+            en: "Level 4 (Year 1) — Completed: Computational Mathematics, Discrete Mathematics, Algorithms and Data Structures, Introduction to Programming I & II, How Computers Work, Fundamentals of Computer Science, Web Development, Graphics Programming.\n\nLevel 5 (Year 2) — Completed: Object Oriented Programming, Software Design and Development, Databases, Networks and the Web, Advanced Web Development, Cyber Security, Agile Software Projects, Programming with Data.\n\nLevel 6 (Year 3, in progress) — Currently studying: Machine Learning and Neural Networks. Planned final project: PhishGuard EDU — AI-powered phishing awareness training platform for school staff.",
+            fi: "Taso 4 (1. vuosi) — Suoritettu: Laskennallinen matematiikka, Diskreetti matematiikka, Algoritmit ja tietorakenteet, Ohjelmoinnin perusteet I & II, Tietokoneiden toiminta, Tietojenkäsittelytieteen perusteet, Web-kehitys, Graafinen ohjelmointi.\n\nTaso 5 (2. vuosi) — Suoritettu: Olio-ohjelmointi, Ohjelmistosuunnittelu ja -kehitys, Tietokannat, verkot ja web, Edistynyt web-kehitys, Tietoturva, Ketterät ohjelmistoprojektit, Ohjelmointi datalla.\n\nTaso 6 (3. vuosi, kesken) — Parhaillaan: Koneoppiminen ja neuroverkot. Suunniteltu lopputyö: PhishGuard EDU — tekoälypohjainen tietojenkalastelutietoisuuden koulutusalusta koulujen henkilökunnalle."
+        },
     },
     {
         institution: {
