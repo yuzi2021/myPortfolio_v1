@@ -38,21 +38,19 @@ window.experienceTranslations = {
                 en: "Remote",
                 fi: "Etätyö"
             },
-            skills: ["App Development", "Digital Privacy", "Education Technology", "Freelance"],
+            skills: ["Security Awareness Training", "GDPR", "Web Development", "Cybersecurity GRC"],
             description: {
                 en: [
-                    "Developing practical applications, focusing on efficiency and user-centric design",
-                    "Conducting free workshops on digital privacy at local daycares, empowering educators and parents",
-                    "Creating and developing training courses on various technology topics",
-                    "Actively seeking and engaging in remote project work, applying technology skills to diverse challenges"
+                    "Designing and delivering an annual GDPR and data protection awareness programme for early childhood education staff, including interactive scenario-based workshops, real threat case studies, and staff reference materials",
+                    "Developing practical web applications focusing on efficiency and user-centric design, including a planned final project on AI-powered phishing awareness training for early childhood education staff",
+                    "Exploring cybersecurity GRC and security awareness as a career specialism, alongside BSc Computer Science studies"
                 ],
                 fi: [
-                    "Kehitän käytännöllisiä sovelluksia, keskittyen tehokkuuteen ja käyttäjäkeskeiseen suunnitteluun",
-                    "Järjestän ilmaisia työpajoja digitaalisesta yksityisyydestä paikallisissa päiväkodeissa, voimaannuttaen kasvattajia ja vanhempia",
-                    "Luon ja kehitän koulutuskursseja erilaisista teknologia-aiheista",
-                    "Etsin aktiivisesti ja osallistun etäprojektityöhön, soveltaen teknologiataitoja monipuolisiin haasteisiin"
+                    "Suunnittelen ja toteutan vuosittaista GDPR- ja tietosuojatietoisuusohjelmaa varhaiskasvatuksen henkilökunnalle, mukaan lukien interaktiiviset skenaariopohjaiset työpajat, todelliset uhkatapaukset ja henkilökunnan viitemateriaalit",
+                    "Kehitän käytännöllisiä verkkosovelluksia keskittyen tehokkuuteen ja käyttäjäkeskeiseen suunnitteluun, mukaan lukien suunniteltu lopputyö tekoälypohjaisesta tietojenkalastelutietoisuuden koulutusalustasta varhaiskasvatuksen henkilökunnalle",
+                    "Tutkin kyberturvallisuuden GRC:tä ja tietoturvatietoisuutta urasuuntautumisena tietojenkäsittelytieteen BSc-opintojen ohella"
                 ]
-            }
+            },
         },
         {
             date: {
@@ -68,17 +66,19 @@ window.experienceTranslations = {
                 en: "Kauniainen, Uusimaa, Finland",
                 fi: "Kauniainen, Uusimaa, Suomi"
             },
-            skills: ["Education", "Childcare"],
+            skills: ["Security Awareness Training", "GDPR", "Data Protection", "Education"],
             description: {
                 en: [
-                    "Provided educational support and assistance in a Finnish daycare setting.",
-                    "Identified the digital literacy gap and ran workshops on Data Privacy."
+                    "Identified a digital literacy gap among staff and designed a GDPR and data protection awareness programme in response",
+                    "Delivered interactive workshops to 15-20 staff members covering real threat cases, scenario-based training, and practical data protection frameworks",
+                    "Provided educational support and assistance in a Finnish daycare setting"
                 ],
                 fi: [
-                    "Tarjosin opetuksellista tukea ja apua suomalaisessa päiväkotiympäristössä.",
-                    "Tunnistin digitaalisen lukutaidon puutteen ja järjestin työpajoja tietosuojasta."
+                    "Tunnistin henkilökunnan digitaalisen lukutaidon puutteen ja suunnittelin vastauksena GDPR- ja tietosuojatietoisuusohjelman",
+                    "Pidin interaktiivisia työpajoja 15-20 henkilökunnanjäsenelle sisältäen todellisia uhkatapauksia, skenaarioperustaista koulutusta ja käytännön tietosuojakehyksiä",
+                    "Tarjosin opetuksellista tukea suomalaisessa päiväkotiympäristössä"
                 ]
-            }
+            },
         },
         {
             date: {
