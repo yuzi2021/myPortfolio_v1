@@ -31,6 +31,118 @@ window.projectTranslations = {
 // Project data
 window.projectsData = [
     {
+        year: "2026",
+        title: {
+            en: "FridgeReady — Privacy by Design Case Study",
+            fi: "FridgeReady — Yksityisyys suunnitteluperiaatteena"
+        },
+        description: {
+            en: "A consumer PWA concept repositioned as a compliance engineering portfolio piece. Demonstrates applied GDPR reasoning including Article 9 special category data classification, explicit consent architecture, data minimisation in schema design, Row-Level Security (RLS) at the database layer, and full DPIA and RoPA documentation. The compliance thinking — not the app — is the deliverable.",
+            fi: "Kuluttaja-PWA-konsepti, joka on uudelleenasemoitu vaatimustenmukaisuustekniikan portfoliokappaleeksi. Osoittaa sovelletun GDPR-päättelyn, mukaan lukien artikla 9:n erityiskategoriadata-luokittelun, eksplisiittisen suostumusarkkitehtuurin, tiedon minimoinnin skeemasuunnittelussa, rivitason suojauksen (RLS) tietokantatasolla sekä täydellisen DPIA- ja RoPA-dokumentaation."
+        },
+        techStack: "React, Supabase, PostgreSQL, RLS, GDPR Articles 5, 6, 7, 9, 25, 30",
+        reportLink: "https://github.com/yuzi2021/myPortfolio_v1/blob/main/FridgeReady_GRC_Portfolio_Case_Study.docx",
+        image: "assets/images/project1.png"
+    },
+    {
+        year: "2026",
+        title: {
+            en: "PhishGuard EDU — Planned Final Project",
+            fi: "PhishGuard EDU — Suunniteltu lopputyö"
+        },
+        description: {
+            en: "Planned BSc Computer Science final project. An AI-powered phishing awareness training platform designed for school staff, building on three years of hands-on GDPR and security awareness programme delivery in early childhood education settings.",
+            fi: "Suunniteltu tietojenkäsittelytieteen kandidaatintyö. Tekoälypohjainen tietojenkalastelutietoisuuden koulutusalusta koulujen henkilökunnalle, perustuen kolmen vuoden käytännön kokemukseen GDPR- ja tietoturvatietoisuusohjelmien toteuttamisesta varhaiskasvatusympäristöissä."
+        },
+        techStack: "In development — AI, security awareness, educational technology",
+        image: "assets/images/project5.png"
+    },
+    {
+        year: "2025",
+        title: {
+            en: "Weather Data Analysis & Prediction CLI",
+            fi: "Säädatan analyysi ja ennustus komentorivityökalulla"
+        },
+        description: {
+            en: "A technical analysis toolkit for visualising and predicting weather data using a command line interface, developed as part of BSc Computer Science Advanced Programming coursework.",
+            fi: "Tekninen analyysityökalu säädatan visualisointiin ja ennustamiseen komentorivityökalulla, kehitetty osana tietojenkäsittelytieteen edistyneen ohjelmoinnin kurssityötä."
+        },
+        techStack: "C++",
+        image: "assets/images/project1.png",
+        note: {
+            en: "Note: Repository and demo coming soon.",
+            fi: "Huomautus: Repositorio ja demo tulossa pian."
+        }
+    },
+    {
+        year: "2025",
+        title: {
+            en: "DJ Application",
+            fi: "DJ-sovellus"
+        },
+        description: {
+            en: "An interactive DJ application developed as part of BSc Computer Science coursework, implementing audio mixing and playback functionality.",
+            fi: "Interaktiivinen DJ-sovellus, kehitetty osana tietojenkäsittelytieteen kurssityötä, toteuttaen äänen miksaus- ja toistotoiminnallisuuden."
+        },
+        techStack: "C++",
+        image: "assets/images/project2.png",
+        note: {
+            en: "Note: Repository and demo coming soon.",
+            fi: "Huomautus: Repositorio ja demo tulossa pian."
+        }
+    },
+    {
+        year: "2025",
+        title: {
+            en: "Chatbot with NLP",
+            fi: "Chatbot luonnollisen kielen käsittelyllä"
+        },
+        description: {
+            en: "A chatbot developed across four stages: lists and string handling, dictionaries and regular expressions, file handling, and NLTK text pre-processing. Developed as part of BSc Computer Science coursework.",
+            fi: "Chatbot kehitetty neljässä vaiheessa: listat ja merkkijonot, sanakirjat ja säännölliset lausekkeet, tiedostojen käsittely sekä NLTK-tekstin esikäsittely. Kehitetty osana tietojenkäsittelytieteen kurssityötä."
+        },
+        techStack: "Python, NLTK, Regular Expressions",
+        image: "assets/images/project3.png",
+        note: {
+            en: "Note: Repository and demo coming soon.",
+            fi: "Huomautus: Repositorio ja demo tulossa pian."
+        }
+    },
+    {
+        year: "2025",
+        title: {
+            en: "Event Manager Application",
+            fi: "Tapahtumanhallintasovellus"
+        },
+        description: {
+            en: "A deployable event management web application developed as part of BSc Computer Science coursework.",
+            fi: "Käyttöönotettava tapahtumanhallintaverkkosovellus, kehitetty osana tietojenkäsittelytieteen kurssityötä."
+        },
+        techStack: "Web Development",
+        image: "assets/images/project4.png",
+        note: {
+            en: "Note: Repository and demo coming soon.",
+            fi: "Huomautus: Repositorio ja demo tulossa pian."
+        }
+    },
+    {
+        year: "2025",
+        title: {
+            en: "E-Learning Platform API",
+            fi: "Verkko-oppimisalustan API"
+        },
+        description: {
+            en: "A Django REST API backend for an e-learning platform, developed as part of BSc Computer Science coursework.",
+            fi: "Django REST API -tausta verkko-oppimisalustalle, kehitetty osana tietojenkäsittelytieteen kurssityötä."
+        },
+        techStack: "Python, Django, REST API",
+        image: "assets/images/project5.png",
+        note: {
+            en: "Note: Currently being graded. Repository and demo coming soon.",
+            fi: "Huomautus: Parhaillaan arvioitavana. Repositorio ja demo tulossa pian."
+        }
+    },
+    {
         year: "2024",
         title: {
             en: "Snooker Practice App",
