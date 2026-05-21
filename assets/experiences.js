@@ -41,13 +41,13 @@ window.experienceTranslations = {
             skills: ["Security Awareness Training", "GDPR", "Web Development", "Cybersecurity GRC"],
             description: {
                 en: [
-                    "Designing and delivering an annual GDPR and data protection awareness programme for early childhood education staff, including interactive scenario-based workshops, real threat case studies, and staff reference materials",
-                    "Developing practical web applications focusing on efficiency and user-centric design, including a planned final project on AI-powered phishing awareness training for early childhood education staff",
+                    "Leading an annual GDPR awareness programme for 15–20 early childhood education staff (2024–2026), using scenario-based learning and real threat cases including the Helsinki education data breach",
+                    "Developing practical web applications focusing on efficiency and user-centric design, including PhishGuard EDU — an adaptive AI-powered phishing awareness training platform for school staff (BSc CM3070 Final Project)",
                     "Exploring cybersecurity GRC and security awareness as a career specialism, alongside BSc Computer Science studies"
                 ],
                 fi: [
-                    "Suunnittelen ja toteutan vuosittaista GDPR- ja tietosuojatietoisuusohjelmaa varhaiskasvatuksen henkilökunnalle, mukaan lukien interaktiiviset skenaariopohjaiset työpajat, todelliset uhkatapaukset ja henkilökunnan viitemateriaalit",
-                    "Kehitän käytännöllisiä verkkosovelluksia keskittyen tehokkuuteen ja käyttäjäkeskeiseen suunnitteluun, mukaan lukien suunniteltu lopputyö tekoälypohjaisesta tietojenkalastelutietoisuuden koulutusalustasta varhaiskasvatuksen henkilökunnalle",
+                    "Johtamassa vuosittaista GDPR-tietoisuusohjelmaa 15–20 varhaiskasvatuksen työntekijälle (2024–2026), käyttäen skenaarioperustaista oppimista ja todellisia uhkatapauksia, kuten Helsingin koulutussektorin tietomurto",
+                    "Kehitän käytännöllisiä verkkosovelluksia keskittyen tehokkuuteen ja käyttäjäkeskeiseen suunnitteluun, mukaan lukien PhishGuard EDU — mukautuva tekoälypohjainen tietojenkalastelutietoisuuden koulutusalusta koulujen henkilökunnalle (BSc CM3070 -lopputyö)",
                     "Tutkin kyberturvallisuuden GRC:tä ja tietoturvatietoisuutta urasuuntautumisena tietojenkäsittelytieteen BSc-opintojen ohella"
                 ]
             },

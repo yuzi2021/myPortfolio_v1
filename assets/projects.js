@@ -33,28 +33,43 @@ window.projectsData = [
     {
         year: "2026",
         title: {
-            en: "FridgeReady — Privacy by Design Case Study",
-            fi: "FridgeReady — Yksityisyys suunnitteluperiaatteena"
+            en: "FridgeReady — Privacy Engineering & GRC Case Study",
+            fi: "FridgeReady — Yksityisyyden suunnittelu ja GRC-tapaustutkimus"
         },
         description: {
-            en: "A consumer PWA concept repositioned as a compliance engineering portfolio piece. Demonstrates applied GDPR reasoning including Article 9 special category data classification, explicit consent architecture, data minimisation in schema design, Row-Level Security (RLS) at the database layer, and full DPIA and RoPA documentation. The compliance thinking — not the app — is the deliverable.",
-            fi: "Kuluttaja-PWA-konsepti, joka on uudelleenasemoitu vaatimustenmukaisuustekniikan portfoliokappaleeksi. Osoittaa sovelletun GDPR-päättelyn, mukaan lukien artikla 9:n erityiskategoriadata-luokittelun, eksplisiittisen suostumusarkkitehtuurin, tiedon minimoinnin skeemasuunnittelussa, rivitason suojauksen (RLS) tietokantatasolla sekä täydellisen DPIA- ja RoPA-dokumentaation."
+            en: "Independent exploration of privacy engineering and GRC methodology applied to a consumer app concept. Covers Article 9 special category consent architecture, data minimisation, Row-Level Security (RLS), DPIA and RoPA documentation, ISO 27001 Annex A mapping across 23 controls, vendor risk assessment of Supabase, Stripe, Sentry and Plausible, and NIST SP 800-61r2 incident response planning.",
+            fi: "Itsenäinen tutkimus yksityisyyden suunnittelusta ja GRC-metodologiasta sovellettuna kuluttajasovelluskonseptiin. Kattaa artikla 9:n erityiskategorioiden suostumusarkkitehtuurin, tiedon minimoinnin, rivitason suojauksen (RLS), DPIA- ja RoPA-dokumentaation, ISO 27001 liitteen A kartoituksen 23 kontrollin osalta, toimittajariskiarvioinnin (Supabase, Stripe, Sentry, Plausible) sekä NIST SP 800-61r2 -häiriöidenhallintasuunnittelun."
         },
-        techStack: "React, Supabase, PostgreSQL, RLS, GDPR Articles 5, 6, 7, 9, 25, 30",
-        reportLink: "./FridgeReady_GRC_Portfolio_Case_Study_v3.pdf",
+        techStack: "Next.js, Supabase, PostgreSQL, RLS, Claude API, Stripe, Vercel",
+        reportLink: "./docs/FridgeReady_GRC_Portfolio_Case_Study.pdf",
         image: "assets/images/project1.png"
     },
     {
-        year: "2026",
+        year: "2024",
         title: {
-            en: "PhishGuard EDU — Planned Final Project",
-            fi: "PhishGuard EDU — Suunniteltu lopputyö"
+            en: "Data Protection in ECEC",
+            fi: "Tietosuoja varhaiskasvatuksessa"
         },
         description: {
-            en: "Planned BSc Computer Science final project. An AI-powered phishing awareness training platform designed for school staff, building on three years of hands-on GDPR and security awareness programme delivery in early childhood education settings.",
-            fi: "Suunniteltu tietojenkäsittelytieteen kandidaatintyö. Tekoälypohjainen tietojenkalastelutietoisuuden koulutusalusta koulujen henkilökunnalle, perustuen kolmen vuoden käytännön kokemukseen GDPR- ja tietoturvatietoisuusohjelmien toteuttamisesta varhaiskasvatusympäristöissä."
+            en: "Co-authored thesis identifying data protection gaps in Finnish private kindergartens. Sole-authored product: The Guardians of the Digital Yard — a 57-page GDPR staff training guidebook using scenario-based learning and Finnish DPA case studies, legally reviewed prior to distribution.",
+            fi: "Yhdessä kirjoitettu opinnäytetyö, joka tunnistaa tietosuoja-aukkoja suomalaisissa yksityisissä päiväkodeissa. Yksin kirjoitettu tuotos: Digitaalisen pihan vartijat — 57-sivuinen GDPR-henkilöstökoulutusopas skenaarioperustaista oppimista ja Suomen tietosuojavaltuutetun tapaustutkimuksia käyttäen, oikeudellisesti tarkistettu ennen jakelua."
         },
-        techStack: "In development — AI, security awareness, educational technology",
+        techStack: "Data Protection, GDPR, Cybersecurity, Finnish DPA, App Evaluation, Ethical Digitalisation",
+        reportLink: "https://urn.fi/URN:NBN:fi:amk-2024052716087",
+        bookLink: "https://www.canva.com/design/DAGDadVaJ04/oNvB9YX4JdYtHpU02RpLcg/view?utm_content=DAGDadVaJ04&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        image: "assets/images/project5.png"
+    },
+    {
+        year: "2025",
+        title: {
+            en: "PhishGuard EDU — BSc Final Project (in progress)",
+            fi: "PhishGuard EDU — BSc lopputyö (kesken)"
+        },
+        description: {
+            en: "Adaptive security awareness training platform for school staff. An NLP pipeline generates education-sector phishing scenarios, while an ML adaptive difficulty engine adjusts training per staff member. Phishing classifier and spam/ham model in active development. BSc CM3070 Final Project, University of London.",
+            fi: "Mukautuva tietoturvatietoisuuden koulutusalusta koulujen henkilökunnalle. NLP-putki tuottaa koulusektorin tietojenkalasteluskenaarioita, ja koneoppimispohjainen mukautuva vaikeustasomoottori säätää koulutusta henkilökohtaisesti. Tietojenkalasteluluokittelija ja roskaposti/ham-malli aktiivisessa kehityksessä. BSc CM3070 -lopputyö, Lontoon yliopisto."
+        },
+        techStack: "Python, NLP, Machine Learning, Security Awareness, Educational Technology",
         image: "assets/images/project5.png"
     },
     {
@@ -205,21 +220,6 @@ window.projectsData = [
             en: "Note: This project is currently being graded. I will share it when I have received my grade.",
             fi: "Huomautus: Tämä projekti on parhaillaan arvioitavana. Jaan sen, kun olen saanut arvosanan."
         }
-    },
-    {
-        year: "2024",
-        title: {
-            en: "Data Protection in ECEC",
-            fi: "Tietosuoja varhaiskasvatuksessa"
-        },
-        description: {
-            en: "As part of my Computer Science studies, I collaborated on a thesis aimed at enhancing data protection practices in early childhood education settings. Building on this research, I've also authored a book that further explores these practices, which is set for publication soon.",
-            fi: "Osana tietojenkäsittelytieteen opintojani osallistuin opinnäytetyöhön, jonka tavoitteena oli parantaa tietosuojakäytäntöjä varhaiskasvatusympäristöissä. Tämän tutkimuksen pohjalta olen myös kirjoittanut kirjan, joka syventyy näihin käytäntöihin ja on pian julkaistavana."
-        },
-        techStack: "Data Protection, Cybersecurity, App Evaluation, Database Management, Ethical Digitalisation",
-        reportLink: "https://urn.fi/URN:NBN:fi:amk-2024052716087",
-        bookLink: "https://www.canva.com/design/DAGDadVaJ04/oNvB9YX4JdYtHpU02RpLcg/view?utm_content=DAGDadVaJ04&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-        image: "assets/images/project5.png"
     },
     {
         year: "2023",
