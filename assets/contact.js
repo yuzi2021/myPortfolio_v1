@@ -3,7 +3,7 @@ window.contactTranslations = {
     en: {
         contactTitle: "Contact",
         letsTalk: "Let's Talk",
-        contactIntro: "As a second-year Computer Science student, I'm passionate about leveraging technology to create innovative solutions across various fields. While my experience in education provides me with valuable insights, my interests and aspirations in technology extend far beyond this sector. I'm eager to apply my problem-solving skills, creativity, and unique perspective to a wide range of technological challenges and opportunities. I'm always open to connecting for internships, project collaborations, or networking opportunities in any area of tech that drives innovation. Whether you have questions about my projects, want to discuss potential collaborations, or just want to chat about the latest technological trends, feel free to reach out!",
+        contactIntro: "I'm a final-year Computer Science student at the University of London, transitioning into cybersecurity with a focus on GRC and security awareness. I combine ten years of teaching experience with hands-on security programme delivery and independent privacy engineering projects. I'm open to opportunities in information security, GRC, and compliance — as well as internships, project collaborations, and networking. Feel free to reach out.",
         getInTouch: "Get in Touch",
         email: "Email",
         linkedin: "LinkedIn",
@@ -14,7 +14,7 @@ window.contactTranslations = {
     fi: {
         contactTitle: "Ota yhteyttä",
         letsTalk: "Keskustellaan",
-        contactIntro: "Toisen vuoden tietojenkäsittelytieteen opiskelijana, olen intohimoinen teknologian hyödyntämisestä innovatiivisten ratkaisujen luomiseen eri aloilla. Vaikka kokemukseni koulutusalalta tarjoaa minulle arvokkaita näkemyksiä, kiinnostukseni ja tavoitteeni teknologian parissa ulottuvat paljon tätä sektoria laajemmalle. Olen innokas soveltamaan ongelmanratkaisutaitojani, luovuuttani ja ainutlaatuista näkökulmaani monenlaisiin teknologisiin haasteisiin ja mahdollisuuksiin. Olen aina avoin yhteydenotoille liittyen harjoittelumahdollisuuksiin, projekteihin tai verkostoitumiseen millä tahansa innovaatiota edistävällä teknologia-alalla. Jos sinulla on kysyttävää projekteistani, haluat keskustella mahdollisesta yhteistyöstä tai vain jutella uusimmista teknologiatrendeistä, ota rohkeasti yhteyttä!",
+        contactIntro: "Olen viimeisen vuoden tietojenkäsittelytieteen opiskelija Lontoon yliopistossa ja siirryn kyberturvallisuuden alalle erikoistuen GRC:hen ja tietoturvatietoisuuteen. Yhdistän kymmenen vuoden opetuskokemuksen käytännön tietoturvaohjelmatyöhön ja itsenäisiin tietosuojainsinöörointiprojekteihin. Olen kiinnostunut mahdollisuuksista tietoturvan, GRC:n ja vaatimustenmukaisuuden parissa — sekä harjoittelupaikoista, projektiyhteistyöstä ja verkostoitumisesta. Ota rohkeasti yhteyttä.",
         getInTouch: "Ota yhteyttä",
         email: "Sähköposti",
         linkedin: "LinkedIn",
