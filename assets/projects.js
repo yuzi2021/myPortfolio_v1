@@ -41,7 +41,7 @@ window.projectsData = [
             fi: "Kuluttaja-PWA-konsepti, joka on uudelleenasemoitu vaatimustenmukaisuustekniikan portfoliokappaleeksi. Osoittaa sovelletun GDPR-päättelyn, mukaan lukien artikla 9:n erityiskategoriadata-luokittelun, eksplisiittisen suostumusarkkitehtuurin, tiedon minimoinnin skeemasuunnittelussa, rivitason suojauksen (RLS) tietokantatasolla sekä täydellisen DPIA- ja RoPA-dokumentaation."
         },
         techStack: "React, Supabase, PostgreSQL, RLS, GDPR Articles 5, 6, 7, 9, 25, 30",
-        reportLink: "https://github.com/yuzi2021/myPortfolio_v1/blob/main/FridgeReady_GRC_Portfolio_Case_Study.docx",
+        reportLink: "./FridgeReady_GRC_Portfolio_Case_Study_v3.pdf",
         image: "assets/images/project1.png"
     },
     {
