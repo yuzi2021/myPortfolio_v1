@@ -50,7 +50,7 @@ window.projectsData = [
         techStack: "Next.js, Supabase, PostgreSQL, RLS, Claude API, Stripe, Vercel",
         caseStudyLink: "./docs/FridgeReady_GRC_Portfolio_Case_Study_v3.pdf",
         securityAssessmentLink: "./docs/FridgeReady_Security_Assessment_Report.pdf",
-        image: "assets/images/project1.png"
+        image: "assets/images/fridge_ready.png"
     },
     {
         year: "2025",
@@ -64,7 +64,7 @@ window.projectsData = [
             fi: "Mukautuva tietoturvatietoisuuden koulutusalusta koulujen henkilökunnalle. NLP-putki tuottaa koulusektorin tietojenkalasteluskenaarioita, ja koneoppimispohjainen mukautuva vaikeustasomoottori säätää koulutusta henkilökohtaisesti. Tietojenkalasteluluokittelija ja roskaposti/ham-malli aktiivisessa kehityksessä. BSc CM3070 -lopputyö, Lontoon yliopisto."
         },
         techStack: "Python, NLP, Machine Learning, Security Awareness, Educational Technology",
-        image: "assets/images/project5.png"
+        image: "assets/images/neural_network.png"
     },
     {
         year: "2024",
@@ -93,7 +93,7 @@ window.projectsData = [
             fi: "Tekninen analyysityökalu säädatan visualisointiin ja ennustamiseen komentorivityökalulla, kehitetty osana tietojenkäsittelytieteen edistyneen ohjelmoinnin kurssityötä."
         },
         techStack: "C++",
-        image: "assets/images/project1.png",
+        image: "assets/images/weather.png",
         note: {
             en: "Note: Repository and demo coming soon.",
             fi: "Huomautus: Repositorio ja demo tulossa pian."
@@ -110,7 +110,7 @@ window.projectsData = [
             fi: "Interaktiivinen DJ-sovellus, kehitetty osana tietojenkäsittelytieteen kurssityötä, toteuttaen äänen miksaus- ja toistotoiminnallisuuden."
         },
         techStack: "C++",
-        image: "assets/images/project2.png",
+        image: "assets/images/dj.png",
         note: {
             en: "Note: Repository and demo coming soon.",
             fi: "Huomautus: Repositorio ja demo tulossa pian."
@@ -127,7 +127,7 @@ window.projectsData = [
             fi: "Chatbot kehitetty neljässä vaiheessa: listat ja merkkijonot, sanakirjat ja säännölliset lausekkeet, tiedostojen käsittely sekä NLTK-tekstin esikäsittely. Kehitetty osana tietojenkäsittelytieteen kurssityötä."
         },
         techStack: "Python, NLTK, Regular Expressions",
-        image: "assets/images/project3.png",
+        image: "assets/images/chatbot.png",
         note: {
             en: "Note: Repository and demo coming soon.",
             fi: "Huomautus: Repositorio ja demo tulossa pian."
@@ -144,7 +144,7 @@ window.projectsData = [
             fi: "Käyttöönotettava tapahtumanhallintaverkkosovellus, kehitetty osana tietojenkäsittelytieteen kurssityötä."
         },
         techStack: "Web Development",
-        image: "assets/images/project4.png",
+        image: "assets/images/event.png",
         note: {
             en: "Note: Repository and demo coming soon.",
             fi: "Huomautus: Repositorio ja demo tulossa pian."
@@ -161,7 +161,7 @@ window.projectsData = [
             fi: "Django REST API -tausta verkko-oppimisalustalle, kehitetty osana tietojenkäsittelytieteen kurssityötä."
         },
         techStack: "Python, Django, REST API",
-        image: "assets/images/project5.png",
+        image: "assets/images/elearning.png",
         note: {
             en: "Note: Currently being graded. Repository and demo coming soon.",
             fi: "Huomautus: Parhaillaan arvioitavana. Repositorio ja demo tulossa pian."

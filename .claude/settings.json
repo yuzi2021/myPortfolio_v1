@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/yu/myPortfolio_v1 diff assets/projects.js)",
+      "Bash(git -C /home/yu/myPortfolio_v1 -c user.email=\"sarahyuzisandstrom@gmail.com\" -c user.name=\"Sarah Sandström\" add assets/projects.js)",
+      "Bash(git -C /home/yu/myPortfolio_v1 -c user.email=sarahyuzisandstrom@gmail.com -c 'user.name=Sarah Sandström' commit -m ' *)",
+      "Bash(git -C /home/yu/myPortfolio_v1 -c user.email=\"sarahyuzisandstrom@gmail.com\" -c user.name=\"Sarah Sandström\" add assets/contact.js)",
+      "Bash(git -C /home/yu/myPortfolio_v1 status docs/)",
+      "Bash(git -C /home/yu/myPortfolio_v1 -c user.email=\"sarahyuzisandstrom@gmail.com\" -c user.name=\"Sarah Sandström\" add assets/projects.js docs/)",
+      "Bash(git -C /home/yu/myPortfolio_v1 diff assets/projects.js assets/style.css projects.html)",
+      "Bash(git -C /home/yu/myPortfolio_v1 -c user.email=\"sarahyuzisandstrom@gmail.com\" -c user.name=\"Sarah Sandström\" add assets/projects.js assets/style.css projects.html)"
+    ]
+  }
+}
