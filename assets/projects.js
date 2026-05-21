@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Project-specific translations
 window.projectTranslations = {
     en: {
+        featuredProjects: "Featured Projects",
         projectTimeline: "Project Timeline",
         liveDemo: "Live Demo",
         githubRepo: "GitHub Repository",
@@ -21,6 +22,7 @@ window.projectTranslations = {
         securityAssessment: "Security Assessment Report"
     },
     fi: {
+        featuredProjects: "Esitellyt projektit",
         projectTimeline: "Projektiaikajana",
         liveDemo: "Live-demo",
         githubRepo: "GitHub-repositorio",
@@ -44,13 +46,29 @@ window.projectsData = [
             en: "Independent exploration of privacy engineering and GRC methodology applied to a consumer app concept. Covers Article 9 special category consent architecture, data minimisation, Row-Level Security (RLS), DPIA and RoPA documentation, ISO 27001 Annex A mapping across 23 controls, vendor risk assessment of Supabase, Stripe, Sentry and Plausible, and NIST SP 800-61r2 incident response planning.",
             fi: "Itsenäinen tutkimus yksityisyyden suunnittelusta ja GRC-metodologiasta sovellettuna kuluttajasovelluskonseptiin. Kattaa artikla 9:n erityiskategorioiden suostumusarkkitehtuurin, tiedon minimoinnin, rivitason suojauksen (RLS), DPIA- ja RoPA-dokumentaation, ISO 27001 liitteen A kartoituksen 23 kontrollin osalta, toimittajariskiarvioinnin (Supabase, Stripe, Sentry, Plausible) sekä NIST SP 800-61r2 -häiriöidenhallintasuunnittelun."
         },
+        featured: true,
         techStack: "Next.js, Supabase, PostgreSQL, RLS, Claude API, Stripe, Vercel",
         caseStudyLink: "./docs/FridgeReady_GRC_Portfolio_Case_Study_v3.pdf",
         securityAssessmentLink: "./docs/FridgeReady_Security_Assessment_Report.pdf",
         image: "assets/images/project1.png"
     },
     {
+        year: "2025",
+        featured: true,
+        title: {
+            en: "PhishGuard EDU — BSc Final Project (in progress)",
+            fi: "PhishGuard EDU — BSc lopputyö (kesken)"
+        },
+        description: {
+            en: "Adaptive security awareness training platform for school staff. An NLP pipeline generates education-sector phishing scenarios, while an ML adaptive difficulty engine adjusts training per staff member. Phishing classifier and spam/ham model in active development. BSc CM3070 Final Project, University of London.",
+            fi: "Mukautuva tietoturvatietoisuuden koulutusalusta koulujen henkilökunnalle. NLP-putki tuottaa koulusektorin tietojenkalasteluskenaarioita, ja koneoppimispohjainen mukautuva vaikeustasomoottori säätää koulutusta henkilökohtaisesti. Tietojenkalasteluluokittelija ja roskaposti/ham-malli aktiivisessa kehityksessä. BSc CM3070 -lopputyö, Lontoon yliopisto."
+        },
+        techStack: "Python, NLP, Machine Learning, Security Awareness, Educational Technology",
+        image: "assets/images/project5.png"
+    },
+    {
         year: "2024",
+        featured: true,
         title: {
             en: "Data Protection in ECEC",
             fi: "Tietosuoja varhaiskasvatuksessa"
@@ -62,19 +80,6 @@ window.projectsData = [
         techStack: "Data Protection, GDPR, Cybersecurity, Finnish DPA, App Evaluation, Ethical Digitalisation",
         reportLink: "https://urn.fi/URN:NBN:fi:amk-2024052716087",
         bookLink: "https://www.canva.com/design/DAGDadVaJ04/oNvB9YX4JdYtHpU02RpLcg/view?utm_content=DAGDadVaJ04&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-        image: "assets/images/project5.png"
-    },
-    {
-        year: "2025",
-        title: {
-            en: "PhishGuard EDU — BSc Final Project (in progress)",
-            fi: "PhishGuard EDU — BSc lopputyö (kesken)"
-        },
-        description: {
-            en: "Adaptive security awareness training platform for school staff. An NLP pipeline generates education-sector phishing scenarios, while an ML adaptive difficulty engine adjusts training per staff member. Phishing classifier and spam/ham model in active development. BSc CM3070 Final Project, University of London.",
-            fi: "Mukautuva tietoturvatietoisuuden koulutusalusta koulujen henkilökunnalle. NLP-putki tuottaa koulusektorin tietojenkalasteluskenaarioita, ja koneoppimispohjainen mukautuva vaikeustasomoottori säätää koulutusta henkilökohtaisesti. Tietojenkalasteluluokittelija ja roskaposti/ham-malli aktiivisessa kehityksessä. BSc CM3070 -lopputyö, Lontoon yliopisto."
-        },
-        techStack: "Python, NLP, Machine Learning, Security Awareness, Educational Technology",
         image: "assets/images/project5.png"
     },
     {
@@ -298,9 +303,9 @@ window.projectsData = [
     }
 ];
 
-function createProjectItem(project, lang) {
+function createProjectItem(project, lang, featured = false) {
     const item = document.createElement('div');
-    item.className = 'timeline-item';
+    item.className = featured ? 'timeline-item featured-item' : 'timeline-item';
     
     item.innerHTML = `
         <div class="timeline-year-circle">
@@ -333,60 +338,45 @@ function createProjectItem(project, lang) {
     
     return item;
 }
-// ... (rest of the code remains the same)
+function populateFeatured(lang) {
+    const container = document.getElementById('featured-projects-container');
+    if (!container) return;
+    container.innerHTML = '';
+    projectsData.filter(p => p.featured).forEach(project => {
+        const item = createProjectItem(project, lang, true);
+        container.appendChild(item);
+    });
+}
+
 function populateProjects(lang) {
     const timeline = document.querySelector('.project-timeline-content-layout');
-    timeline.innerHTML = ''; // Clear existing content
-    projectsData.forEach(project => {
-        const item = createProjectItem(project, lang);
+    if (!timeline) return;
+    timeline.innerHTML = '';
+    projectsData.filter(p => !p.featured).forEach(project => {
+        const item = createProjectItem(project, lang, false);
         timeline.appendChild(item);
     });
 }
 
 function translatePageSpecificContent(lang) {
-    // Translate project-specific elements
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (projectTranslations[lang] && projectTranslations[lang][key]) {
             element.textContent = projectTranslations[lang][key];
         }
     });
-
-    // Repopulate projects with the new language
+    populateFeatured(lang);
     populateProjects(lang);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
-    populateProjects(preferredLanguage);
-
-    // Intersection Observer for scroll animations
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            }
-        });
-    });
-
-    // Observe all timeline items
-    document.querySelectorAll('.timeline-item').forEach(item => {
-        observer.observe(item);
-    });
-});
-
-
-// Add this function to handle language changes
 function handleLanguageChange(lang) {
     translatePageSpecificContent(lang);
 }
 
-// Update the DOMContentLoaded event listener
 document.addEventListener('DOMContentLoaded', function() {
     const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
     handleLanguageChange(preferredLanguage);
 
-    // Intersection Observer for scroll animations
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -395,12 +385,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Observe all timeline items
     document.querySelectorAll('.timeline-item').forEach(item => {
         observer.observe(item);
     });
 
-    // Add event listener for language changes
     document.addEventListener('languageChanged', function(e) {
         handleLanguageChange(e.detail.language);
     });

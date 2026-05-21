@@ -35,6 +35,7 @@
   --light-grey: hsl(0, 0%, 85%);
   --light-blue: hsl(246, 56%, 96%);
   --contrast-text-color: hsl(248, 53%, 30%); /* Darker text for contrast on light background */
+  --teal: hsl(174, 60%, 40%);
   
   /* Font Variables */
   --font-family-primary: 'Inter', sans-serif;
@@ -345,6 +346,15 @@ p {
 
 .timeline-item:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.featured-item {
+  border-left: 4px solid var(--teal);
+  background-color: hsl(248, 53%, 82%);
+}
+
+.featured-item:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 .timeline-year-circle {
