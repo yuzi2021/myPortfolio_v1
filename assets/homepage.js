@@ -1,15 +1,15 @@
 // Homepage-specific translations
 const homepageTranslations = {
     en: {
-        heroTitle: "Educator and aspiring technologist passionate about innovative solutions and efficiency through automation.",
-        heroDescription: "Discover my journey through my {0}, {1}, and {2} to see how I'm turning ideas into practical, efficient solutions that bridge traditional fields with cutting-edge technology.",
+        heroTitle: "Educator transitioning into cybersecurity — combining ten years of teaching with a BSc in Computer Science and hands-on security awareness programme delivery.",
+        heroDescription: "Interested in GRC, security awareness, and the human side of information security. Explore my {0}, {1}, and {2} to see how education and technology meet.",
         typingProjects: "PROJECTS",
         typingExperiences: "EXPERIENCES",
         typingEducation: "EDUCATION"
     },
     fi: {
-        heroTitle: "Opettaja ja kehittyvä teknologi-intoilija, joka on intohimoinen innovatiivisten ratkaisujen ja tehokkuuden parantamisesta automaation avulla.",
-        heroDescription: "Tutustu matkaani {0}, {1} ja {2} kautta nähdäksesi, miten muutan ideat käytännöllisiksi ja tehokkaiksi ratkaisuiksi, jotka yhdistävät perinteiset alat huipputeknologiaan.",
+        heroTitle: "Opettaja siirtymässä kyberturvallisuuteen — yhdistän kymmenen vuoden opetuskokemuksen tietojenkäsittelytieteen kandidaatintutkintoon ja käytännön tietoturvatietoisuusohjelmien toteuttamiseen.",
+        heroDescription: "Kiinnostunut GRC:stä, tietoturvatietoisuudesta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten koulutus ja teknologia kohtaavat.",
         typingProjects: "PROJEKTIT",
         typingExperiences: "KOKEMUKSET",
         typingEducation: "KOULUTUS"
