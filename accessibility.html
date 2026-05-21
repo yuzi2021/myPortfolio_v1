@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessibility Statement — Sarah Sandström</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal: #0D6E6E;
+      --teal-light: #e6f4f4;
+      --dark: #1a1a1a;
+      --gray: #444444;
+      --border: #e0e0e0;
+      --amber: #fff8e6;
+      --amber-border: #cc8800;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      color: var(--dark);
+      background: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-logo img { height: 40px; width: auto; }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--gray);
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--teal); }
+
+    .nav-social { display: flex; gap: 0.75rem; align-items: center; }
+    .nav-social img { height: 20px; width: 20px; opacity: 0.7; transition: opacity 0.2s; }
+    .nav-social a:hover img { opacity: 1; }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 1rem;
+      background: var(--teal);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 0 0 4px 4px;
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 0; }
+
+    main {
+      flex: 1;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+      width: 100%;
+    }
+
+    .page-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+    }
+
+    .meta {
+      font-size: 0.875rem;
+      color: #888;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 2rem 0 0.75rem;
+    }
+
+    p {
+      font-size: 0.975rem;
+      line-height: 1.75;
+      color: var(--gray);
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    li {
+      font-size: 0.975rem;
+      line-height: 1.75;
+      color: var(--gray);
+      margin-bottom: 0.4rem;
+    }
+
+    a { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { text-decoration: none; }
+
+    .callout {
+      background: var(--teal-light);
+      border-left: 3px solid var(--teal);
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1.5rem 0;
+    }
+
+    .callout p { margin: 0; font-size: 0.925rem; color: var(--dark); }
+
+    .known-issue {
+      background: var(--amber);
+      border-left: 3px solid var(--amber-border);
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      margin: 0.5rem 0;
+    }
+
+    .known-issue p { margin: 0; font-size: 0.925rem; color: #664400; }
+
+    .status-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .status-table th {
+      text-align: left;
+      padding: 0.6rem 0.75rem;
+      background: var(--dark);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .status-table td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--gray);
+      vertical-align: top;
+    }
+
+    .status-table tr:nth-child(even) td { background: #fafafa; }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+
+    .badge-yes { background: #e0f5e0; color: #006600; }
+    .badge-partial { background: #fff8e0; color: #886600; }
+    .badge-no { background: #ffe0e0; color: #880000; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-left { display: flex; align-items: center; gap: 0.75rem; }
+    .footer-left img { height: 32px; width: auto; opacity: 0.6; }
+    .footer-left span { font-size: 0.85rem; color: #888; }
+
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a { font-size: 0.85rem; color: #888; text-decoration: none; }
+    .footer-links a:hover { color: var(--teal); }
+    .footer-links a[aria-current="page"] { color: var(--teal); font-weight: 600; }
+
+    @media (max-width: 640px) {
+      nav { padding: 1rem; flex-wrap: wrap; gap: 0.75rem; }
+      .nav-links { gap: 1rem; flex-wrap: wrap; }
+      main { padding: 2rem 1.25rem; }
+      h1 { font-size: 1.5rem; }
+      footer { flex-direction: column; align-items: flex-start; }
+      .status-table { font-size: 0.825rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav aria-label="Main navigation">
+    <a href="./index.html" class="nav-logo" aria-label="Sarah Sandström — home">
+      <img src="./assets/images/S.png" alt="Portfolio logo: stylized S monogram" />
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./education.html">Education</a></li>
+      <li><a href="./experiences.html">Experiences</a></li>
+      <li><a href="./contacts.html">Contact</a></li>
+      <li><a href="./cv.html">CV</a></li>
+    </ul>
+    <div class="nav-social">
+      <a href="https://www.linkedin.com/in/sarah-sandström-17338ab6/" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/linkedin-icon.png" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/yuzi2021" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/images/github-icon.png" alt="GitHub" />
+      </a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <p class="page-label">Legal</p>
+    <h1>Accessibility Statement</h1>
+    <p class="meta">Last updated: May 2026 &nbsp;·&nbsp; Sarah Sandström Portfolio</p>
+
+    <div class="callout">
+      <p>This site aims to meet WCAG 2.1 Level AA. This statement is honest about what is currently implemented and what is still being improved.</p>
+    </div>
+
+    <h2>About this site</h2>
+    <p>This is a personal portfolio website belonging to Sarah Sandström, hosted on GitHub Pages. The site is maintained by one person and is actively being improved for accessibility as pages are updated.</p>
+
+    <h2>Standard and scope</h2>
+    <p>The target standard is the <a href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines (WCAG) 2.1</a> at Level AA. This is also the standard referenced in the Finnish Act on the Provision of Digital Services (Laki digitaalisten palvelujen tarjoamisesta, 306/2019), although that Act applies to public sector services rather than personal portfolio sites.</p>
+
+    <h2>Current status</h2>
+    <table class="status-table" aria-label="Accessibility status by criterion">
+      <thead>
+        <tr>
+          <th scope="col">Criterion</th>
+          <th scope="col">Status</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Skip to main content link</td>
+          <td><span class="badge badge-yes">Implemented</span></td>
+          <td>Present on all pages</td>
+        </tr>
+        <tr>
+          <td>Page language declared</td>
+          <td><span class="badge badge-yes">Implemented</span></td>
+          <td><code>lang="en"</code> on all pages</td>
+        </tr>
+        <tr>
+          <td>Meaningful page titles</td>
+          <td><span class="badge badge-yes">Implemented</span></td>
+          <td>Each page has a descriptive title</td>
+        </tr>
+        <tr>
+          <td>Navigation landmark</td>
+          <td><span class="badge badge-yes">Implemented</span></td>
+          <td><code>&lt;nav aria-label&gt;</code> on all pages</td>
+        </tr>
+        <tr>
+          <td>Image alt text</td>
+          <td><span class="badge badge-partial">Partial</span></td>
+          <td>Logo and social icons have alt text. Project images being reviewed.</td>
+        </tr>
+        <tr>
+          <td>Colour contrast</td>
+          <td><span class="badge badge-partial">Partial</span></td>
+          <td>Main text meets AA. Some secondary text and decorative elements under review.</td>
+        </tr>
+        <tr>
+          <td>Keyboard navigation</td>
+          <td><span class="badge badge-partial">Partial</span></td>
+          <td>Navigation and links are keyboard accessible. Interactive project components under review.</td>
+        </tr>
+        <tr>
+          <td>Focus indicators</td>
+          <td><span class="badge badge-partial">Partial</span></td>
+          <td>Browser defaults present. Custom visible focus styles being added as pages are updated.</td>
+        </tr>
+        <tr>
+          <td>Heading structure</td>
+          <td><span class="badge badge-partial">Partial</span></td>
+          <td>Under review across all pages.</td>
+        </tr>
+        <tr>
+          <td>ARIA labels on interactive elements</td>
+          <td><span class="badge badge-partial">Partial</span></td>
+          <td>Added to navigation and social links. Project cards under review.</td>
+        </tr>
+        <tr>
+          <td>No motion unless requested</td>
+          <td><span class="badge badge-yes">Implemented</span></td>
+          <td>No autoplay animations. Transitions are minimal.</td>
+        </tr>
+        <tr>
+          <td>Finnish language version</td>
+          <td><span class="badge badge-yes">Implemented</span></td>
+          <td>Language toggle switches between English and Finnish content via JSON data files.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Known issues</h2>
+
+    <div class="known-issue">
+      <p><strong>Footer year:</strong> Some pages show 2024 in the footer. This is being corrected as pages are updated.</p>
+    </div>
+
+    <div class="known-issue">
+      <p><strong>Project image alt text:</strong> Some project card images may have incomplete or missing alternative text. This is being audited.</p>
+    </div>
+
+    <h2>Improvement approach</h2>
+    <p>Accessibility improvements are being made incrementally as each page of the portfolio is updated. The priority order is: navigation and structure, images and alt text, colour contrast, keyboard and focus, then page-specific components.</p>
+    <p>This statement is updated each time a page is revised. The date at the top reflects the last review.</p>
+
+    <h2>Feedback and contact</h2>
+    <p>If you encounter an accessibility barrier on this site, please contact <a href="mailto:sarahyuzisandstrom@gmail.com">sarahyuzisandstrom@gmail.com</a>. Feedback is genuinely welcome and will be acted on.</p>
+
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      <img src="./assets/images/S.png" alt="Sarah Sandström monogram" />
+      <span>Sarah Sandström, 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Legal">
+      <a href="./accessibility.html" aria-current="page">Accessibility Statement</a>
+      <a href="./privacy-policy.html">Privacy Policy</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
