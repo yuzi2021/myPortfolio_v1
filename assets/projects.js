@@ -16,7 +16,8 @@ window.projectTranslations = {
         githubRepo: "GitHub Repository",
         techStack: "Tech Stack:",
         report: "Report",
-        publication: "Publication"
+        publication: "Publication",
+        securityAssessment: "Security Assessment Report"
     },
     fi: {
         projectTimeline: "Projektiaikajana",
@@ -24,7 +25,8 @@ window.projectTranslations = {
         githubRepo: "GitHub-repositorio",
         techStack: "Teknologiat:",
         report: "Raportti",
-        publication: "Julkaisu"
+        publication: "Julkaisu",
+        securityAssessment: "Tietoturva-arviointiraportti"
     }
 };
 
@@ -41,7 +43,8 @@ window.projectsData = [
             fi: "Itsenäinen tutkimus yksityisyyden suunnittelusta ja GRC-metodologiasta sovellettuna kuluttajasovelluskonseptiin. Kattaa artikla 9:n erityiskategorioiden suostumusarkkitehtuurin, tiedon minimoinnin, rivitason suojauksen (RLS), DPIA- ja RoPA-dokumentaation, ISO 27001 liitteen A kartoituksen 23 kontrollin osalta, toimittajariskiarvioinnin (Supabase, Stripe, Sentry, Plausible) sekä NIST SP 800-61r2 -häiriöidenhallintasuunnittelun."
         },
         techStack: "Next.js, Supabase, PostgreSQL, RLS, Claude API, Stripe, Vercel",
-        reportLink: "./docs/FridgeReady_GRC_Portfolio_Case_Study.pdf",
+        reportLink: "./docs/FridgeReady_GRC_Portfolio_Case_Study_v3.pdf",
+        securityAssessmentLink: "./docs/FridgeReady_Security_Assessment_Report.pdf",
         image: "assets/images/project1.png"
     },
     {
@@ -317,6 +320,7 @@ function createProjectItem(project, lang) {
                     ${project.demoLink ? `<a href="${project.demoLink}" target="_blank" class="project-link live-demo-link"><i class="fas fa-play-circle"></i> ${projectTranslations[lang].liveDemo}</a>` : ''}
                     ${project.repoLink ? `<a href="${project.repoLink}" target="_blank" class="project-link github-link"><i class="fab fa-github"></i> ${projectTranslations[lang].githubRepo}</a>` : ''}
                     ${project.reportLink ? `<a href="${project.reportLink}" target="_blank" class="project-link report-link"><i class="fas fa-file-alt"></i> ${projectTranslations[lang].report}</a>` : ''}
+                    ${project.securityAssessmentLink ? `<a href="${project.securityAssessmentLink}" target="_blank" class="project-link report-link"><i class="fas fa-shield-alt"></i> ${projectTranslations[lang].securityAssessment}</a>` : ''}
                     ${project.publicationLink ? `<a href="${project.publicationLink}" target="_blank" class="project-link publication-link"><i class="fas fa-book"></i> ${projectTranslations[lang].publication}</a>` : ''}
                     ${project.bookLink ? `<a href="${project.bookLink}" target="_blank" class="project-link book-link"><i class="fas fa-book-open"></i> ${projectTranslations[lang].publication}</a>` : ''}
                 </div>
