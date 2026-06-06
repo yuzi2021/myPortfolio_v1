@@ -2,14 +2,14 @@
 const homepageTranslations = {
     en: {
         heroTitle: "Educator transitioning into cybersecurity — combining ten years of teaching with a BSc in Computer Science and hands-on security awareness programme delivery.",
-        heroDescription: "Interested in GRC, security awareness, and the human side of information security. Explore my {0}, {1}, and {2} to see how education and technology meet.",
-        typingProjects: "PROJECTS",
+        heroDescription: "Interested in GRC, security awareness, technical documentation, and the human side of information security. Explore my {0}, {1}, and {2} to see how education and technology meet.",        
+        ypingProjects: "PROJECTS",
         typingExperiences: "EXPERIENCES",
         typingEducation: "EDUCATION"
     },
     fi: {
         heroTitle: "Opettaja siirtymässä kyberturvallisuuteen — yhdistän kymmenen vuoden opetuskokemuksen tietojenkäsittelytieteen kandidaatintutkintoon ja käytännön tietoturvatietoisuusohjelmien toteuttamiseen.",
-        heroDescription: "Kiinnostunut GRC:stä, tietoturvatietoisuudesta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten koulutus ja teknologia kohtaavat.",
+        heroDescription: "Kiinnostunut GRC:stä, tietoturvatietoisuudesta, teknisestä dokumentaatiosta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten koulutus ja teknologia kohtaavat.",
         typingProjects: "PROJEKTIT",
         typingExperiences: "KOKEMUKSET",
         typingEducation: "KOULUTUS"
