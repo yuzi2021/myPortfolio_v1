@@ -38,6 +38,21 @@ window.projectTranslations = {
 
 // Project data
 window.projectsData = [
+        {
+        year: "2026",
+        title: {
+            en: "PhishEdu AI Governance Library Sample",
+            fi: "PhishEdu – tekoälyn hallintakirjaston näyte"
+        },
+        description: {
+            en: "A self-directed AI governance documentation sample for the planned PhishEdu phishing awareness training tool. Demonstrates how AI governance content can be structured for both human review and machine-readable API/agent consumption before implementation begins. Includes an AI system card, risk-control library (8 risks, 24 controls), policy mapping to EU AI Act, NIST AI RMF 1.0, ISO/IEC 42001, and GDPR, machine-readable JSON metadata, and a library update workflow.",
+            fi: "Itsenäisesti toteutettu tekoälyn hallintadokumentaationäyte suunnitellulle PhishEdu-tietojenkalastelutietoisuuden koulutustyökalulle. Osoittaa, miten tekoälyn hallintasisältö voidaan rakentaa sekä ihmisten tarkistettavaksi että koneluettavaksi API- ja agenttikäyttöön ennen toteutuksen aloittamista. Sisältää tekoälyjärjestelmäkortin, riski-kontrollointikatalogit (8 riskiä, 24 kontrollia), käytäntökartoituksen EU:n tekoälylakiin, NIST AI RMF 1.0:aan, ISO/IEC 42001:een ja GDPR:ään, koneluettavan JSON-metadatan sekä kirjaston päivitystyönkulun."
+        },
+        featured: true,
+        techStack: "AI Governance, EU AI Act, NIST AI RMF, ISO 42001, GDPR, JSON, Risk-Control Mapping",
+        repoLink: "https://github.com/yuzi2021/phishedU-ai-governance-sample",
+        image: "assets/images/neural_network.png"
+    },
     {
         year: "2026",
         title: {
