@@ -19,7 +19,8 @@ window.projectTranslations = {
         report: "Report",
         caseStudy: "Security Documentation",
         publication: "Publication",
-        securityAssessment: "Security Assessment Report"
+        securityAssessment: "Security Assessment Report",
+        aiGovernance: "AI Governance Documentation"
     },
     fi: {
         featuredProjects: "Esitellyt projektit",
@@ -30,7 +31,8 @@ window.projectTranslations = {
         report: "Raportti",
         caseStudy: "Tietoturva-dokumentaatio",
         publication: "Julkaisu",
-        securityAssessment: "Tietoturva-arviointiraportti"
+        securityAssessment: "Tietoturva-arviointiraportti",
+        aiGovernance: "Tekoälyn hallintadokumentaatio"
     }
 };
 
