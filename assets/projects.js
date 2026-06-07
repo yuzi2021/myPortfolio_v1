@@ -17,7 +17,7 @@ window.projectTranslations = {
         githubRepo: "GitHub Repository",
         techStack: "Tech Stack:",
         report: "Report",
-        caseStudy: "Case Study",
+        caseStudy: "Security Documentation",
         publication: "Publication",
         securityAssessment: "Security Assessment Report"
     },
@@ -28,7 +28,7 @@ window.projectTranslations = {
         githubRepo: "GitHub-repositorio",
         techStack: "Teknologiat:",
         report: "Raportti",
-        caseStudy: "Tapaustutkimus",
+        caseStudy: "Tietoturva-dokumentaatio",
         publication: "Julkaisu",
         securityAssessment: "Tietoturva-arviointiraportti"
     }
@@ -48,8 +48,7 @@ window.projectsData = [
         },
         featured: true,
         techStack: "Next.js, Supabase, PostgreSQL, RLS, Claude API, Stripe, Vercel",
-        caseStudyLink: "./docs/FridgeReady_GRC_Portfolio_Case_Study_v3.pdf",
-        securityAssessmentLink: "./docs/FridgeReady_Security_Assessment_Report.pdf",
+        caseStudyLink: "https://github.com/yuzi2021/fridgeready",
         image: "assets/images/fridge_ready.png"
     },
     {
