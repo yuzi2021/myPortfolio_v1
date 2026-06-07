@@ -2,13 +2,15 @@
 const homepageTranslations = {
     en: {
         heroTitle: "Educator transitioning into cybersecurity and AI governance — combining ten years of teaching with a BSc in Computer Science, hands-on security awareness programme delivery, and structured compliance documentation.",
-        heroDescription: "Interested in GRC, AI governance, security awareness, technical documentation, and the human side of information security. Explore my {0}, {1}, and {2} to see how I bring structure, clarity, and risk-based thinking to cybersecurity and AI governance.",        ypingProjects: "PROJECTS",
+        heroDescription: "Interested in GRC, AI governance, security awareness, technical documentation, and the human side of information security. Explore my {0}, {1}, and {2} to see how I bring structure, clarity, and risk-based thinking to cybersecurity and AI governance.",        
+        typingProjects: "PROJECTS",
         typingExperiences: "EXPERIENCES",
         typingEducation: "EDUCATION"
     },
     fi: {
         heroTitle: "Opettaja siirtymässä kyberturvallisuuteen ja tekoälyn hallintaan — yhdistän kymmenen vuoden opetuskokemuksen tietojenkäsittelytieteen kandidaatintutkintoon, tietoturvatietoisuusohjelmiin ja rakenteelliseen vaatimustenmukaisuusdokumentaatioon.",
-        heroDescription: "Kiinnostunut GRC:stä, tekoälyn hallinnasta, tietoturvatietoisuudesta, teknisestä dokumentaatiosta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten tuon rakennetta, selkeyttä ja riskiperusteista ajattelua kyberturvallisuuteen ja tekoälyn hallintaan.",        typingProjects: "PROJEKTIT",
+        heroDescription: "Kiinnostunut GRC:stä, tekoälyn hallinnasta, tietoturvatietoisuudesta, teknisestä dokumentaatiosta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten tuon rakennetta, selkeyttä ja riskiperusteista ajattelua kyberturvallisuuteen ja tekoälyn hallintaan.",        
+        typingProjects: "PROJEKTIT",
         typingExperiences: "KOKEMUKSET",
         typingEducation: "KOULUTUS"
     }
