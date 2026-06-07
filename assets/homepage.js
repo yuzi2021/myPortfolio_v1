@@ -1,15 +1,15 @@
 // Homepage-specific translations
 const homepageTranslations = {
     en: {
-        heroTitle: "Educator transitioning into cybersecurity — combining ten years of teaching with a BSc in Computer Science and hands-on security awareness programme delivery.",
-        heroDescription: "Interested in GRC, security awareness, technical documentation, and the human side of information security. Explore my {0}, {1}, and {2} to see how education and technology meet.",        
+        heroTitle: "Educator transitioning into cybersecurity and AI governance — combining ten years of teaching with a BSc in Computer Science, hands-on security awareness programme delivery, and structured compliance documentation.",
+        heroDescription: "Interested in GRC, AI governance, security awareness, technical documentation, and the human side of information security. Explore my {0}, {1}, and {2} to see how education and technology meet.",       
         ypingProjects: "PROJECTS",
         typingExperiences: "EXPERIENCES",
         typingEducation: "EDUCATION"
     },
     fi: {
-        heroTitle: "Opettaja siirtymässä kyberturvallisuuteen — yhdistän kymmenen vuoden opetuskokemuksen tietojenkäsittelytieteen kandidaatintutkintoon ja käytännön tietoturvatietoisuusohjelmien toteuttamiseen.",
-        heroDescription: "Kiinnostunut GRC:stä, tietoturvatietoisuudesta, teknisestä dokumentaatiosta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten koulutus ja teknologia kohtaavat.",
+        heroTitle: "Opettaja siirtymässä kyberturvallisuuteen ja tekoälyn hallintaan — yhdistän kymmenen vuoden opetuskokemuksen tietojenkäsittelytieteen kandidaatintutkintoon, tietoturvatietoisuusohjelmiin ja rakenteelliseen vaatimustenmukaisuusdokumentaatioon.",
+        heroDescription: "Kiinnostunut GRC:stä, tekoälyn hallinnasta, tietoturvatietoisuudesta, teknisestä dokumentaatiosta ja tietoturvan inhimillisestä puolesta. Tutustu {0}, {1} ja {2} nähdäksesi, miten koulutus ja teknologia kohtaavat.",
         typingProjects: "PROJEKTIT",
         typingExperiences: "KOKEMUKSET",
         typingEducation: "KOULUTUS"
